@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="init" />
+    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="add MoviesController.cs">
+      <change afterPath="$PROJECT_DIR$/Movies.Application/Models/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movies.Application/Reposiories/IMovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiCourse.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiCourse.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739276148251</updated>
-      <workItem from="1739276149301" duration="777000" />
+      <workItem from="1739276149301" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -114,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739276319195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove WeatherForecastController.cs">
+      <option name="closed" value="true" />
+      <created>1739278102796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739278102796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add MoviesController.cs">
+      <option name="closed" value="true" />
+      <created>1739278215817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739278215817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,9 +143,22 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="remove WeatherForecastController.cs" />
+    <MESSAGE value="add MoviesController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MoviesController.cs" />
   </component>
 </project>
