@@ -9,19 +9,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="add MoviesController.cs">
-      <change afterPath="$PROJECT_DIR$/Movies.Application/Models/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies.Application/Reposiories/IMovieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiCourse.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiCourse.sln" afterDir="false" />
-    </list>
+    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1739279528" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1739279527" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -38,7 +62,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Movies.Api: IIS Express.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739276148251</updated>
-      <workItem from="1739276149301" duration="2040000" />
+      <workItem from="1739276149301" duration="2564000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -135,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739278215817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Repository">
+      <option name="closed" value="true" />
+      <created>1739279455603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739279455603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +191,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="remove WeatherForecastController.cs" />
     <MESSAGE value="add MoviesController.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MoviesController.cs" />
+    <MESSAGE value="add Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Repository" />
   </component>
 </project>

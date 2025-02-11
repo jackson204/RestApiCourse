@@ -4,28 +4,39 @@ namespace Movies.Application.Reposiories;
 
 public class MovieRepository : IMovieRepository
 {
+    private static readonly List<Movie> _movies = [];
+
     public Task<IEnumerable<Movie>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        return Task.FromResult(_movies.AsEnumerable());
     }
 
     public Task<bool> CreateAsync(Movie movie)
     {
-        throw new NotImplementedException();
+        _movies.Add(movie);
+        return Task.FromResult(true);
     }
 
     public Task<bool> UpdateAsync(Movie movie)
     {
-        throw new NotImplementedException();
+        var index = _movies.FindIndex(r => r.Id == movie.Id);
+        if (index == -1)
+        {
+            return Task.FromResult(false);
+        }
+        _movies[index] = movie;
+        return Task.FromResult(true);
     }
 
     public Task<Movie?> GetByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var movie = _movies.FirstOrDefault(r => r.Id == id);
+        return Task.FromResult(movie);
     }
 
     public Task<bool> DeleteByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var result = _movies.RemoveAll(r => r.Id == id);
+        return Task.FromResult(result > 0);
     }
 }
