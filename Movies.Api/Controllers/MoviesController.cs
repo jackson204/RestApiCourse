@@ -26,7 +26,7 @@ public class MoviesController : ControllerBase
             Genres = request.Genres.ToList()
         };
         await _movieRepository.CreateAsync(movie);
-        return Ok();
+        return CreatedAtAction(nameof(Get), new { id = movie.Id }, movie);
     }
 
     [HttpGet("api/movies")]
