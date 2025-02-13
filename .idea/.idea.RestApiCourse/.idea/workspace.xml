@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="add curd">
+    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="adjust CreateAsync()">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movies.Api/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movies.Api/Controllers/MoviesController.cs" afterDir="false" />
     </list>
@@ -63,7 +63,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/s9740/RiderProjects/RestApiCourse/Movies.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/s9740/RiderProjects/RestApiCourse/Movies.Api/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/s9740/RiderProjects/RestApiCourse/Movies.Api/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -153,7 +154,7 @@
       <workItem from="1739284402399" duration="50000" />
       <workItem from="1739321248830" duration="3473000" />
       <workItem from="1739348408122" duration="3751000" />
-      <workItem from="1739429787392" duration="359000" />
+      <workItem from="1739429787392" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739429832949</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adjust CreateAsync()">
+      <option name="closed" value="true" />
+      <created>1739430227948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739430227948</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,20 +274,21 @@
     <MESSAGE value="remove CreateMovieRequest.cs" />
     <MESSAGE value="install nuget Extensions.DependencyInjection.Abstractions and DI IMovieRepository" />
     <MESSAGE value="add curd" />
-    <option name="LAST_COMMIT_MESSAGE" value="add curd" />
+    <MESSAGE value="adjust CreateAsync()" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust CreateAsync()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Movies.Api/Controllers/MoviesController.cs</url>
-          <line>41</line>
+          <line>50</line>
           <properties documentPath="C:\Users\s9740\RiderProjects\RestApiCourse\Movies.Api\Controllers\MoviesController.cs" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="1171" />
+              <option value="1356" />
             </startOffsets>
             <endOffsets>
-              <option value="1223" />
+              <option value="1408" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

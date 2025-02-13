@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Movies.Api.Mapping;
 using Movies.Application.Models;
 using Movies.Application.Reposiories;
 using Movies.Contracts.Requests;
@@ -18,13 +19,7 @@ public class MoviesController : ControllerBase
     [HttpPost("api/movies")]
     public async Task<IActionResult> CreateAsync([FromBody] CreateMovieRequest request)
     {
-        var movie = new Movie
-        {
-            Id = Guid.NewGuid(),
-            Title = request.Title,
-            YearOfRelease = request.YearOfRelease,
-            Genres = request.Genres.ToList()
-        };
+        var movie = request.MapToMovie();
         await _movieRepository.CreateAsync(movie);
         return CreatedAtAction(nameof(Get), new { id = movie.Id }, movie);
     }
@@ -33,7 +28,17 @@ public class MoviesController : ControllerBase
     public async Task<IActionResult> GetAllAsync()
     {
         var movies = await _movieRepository.GetAllAsync();
-        return Ok(movies);
+        var moviesResponse = new MoviesResponse()
+        {
+            Items = movies.Select(r => new MovieResponse()
+            {
+                Id = r.Id,
+                Title = r.Title,
+                YearOfRelease = r.YearOfRelease,
+                Genres = r.Genres
+            })
+        };
+        return Ok(moviesResponse);
     }
 
     [HttpGet("api/movies/{id}")]
@@ -75,4 +80,19 @@ public class MoviesController : ControllerBase
         }
         return Ok();
     }
+}
+
+public class MoviesResponse
+{
+    public required IEnumerable<MovieResponse> Items { get; init; } = Enumerable.Empty<MovieResponse>();
+}
+public class MovieResponse
+{
+    public required Guid Id { get; init; }
+    
+    public required string Title { get; init; }
+
+    public required int YearOfRelease { get; init; }
+
+    public required IEnumerable<string> Genres { get; init; } = Enumerable.Empty<string>();
 }
