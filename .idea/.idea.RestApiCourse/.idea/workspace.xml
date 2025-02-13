@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="DI">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestApiCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movies.Api/Program.cs" afterDir="false" />
+    <list default="true" id="75249f33-a442-4262-952b-48667cfea2fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Movies.Contracts/Requests/UpdateMovieRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movies.Api/Controllers/MoviesController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +63,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/s9740/RiderProjects/RestApiCourse/Movies.Application/Reposiories/MovieRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/s9740/RiderProjects/RestApiCourse/Movies.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -153,6 +152,7 @@
       <workItem from="1739276149301" duration="5710000" />
       <workItem from="1739284402399" duration="50000" />
       <workItem from="1739321248830" duration="3473000" />
+      <workItem from="1739348408122" duration="3751000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -218,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739283079950</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="install nuget Extensions.DependencyInjection.Abstractions and DI IMovieRepository">
+      <option name="closed" value="true" />
+      <created>1739349356659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739349356659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="add MovieRepository.cs" />
     <MESSAGE value="add CreateAsync action" />
     <MESSAGE value="remove CreateMovieRequest.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove CreateMovieRequest.cs" />
+    <MESSAGE value="install nuget Extensions.DependencyInjection.Abstractions and DI IMovieRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="install nuget Extensions.DependencyInjection.Abstractions and DI IMovieRepository" />
   </component>
 </project>
